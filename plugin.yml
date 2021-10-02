@@ -16,6 +16,6 @@ website: https://github.com/Trollhunters501
 
 commands: 
  vi:
-  description: "Vasia tu inventario!"
+  description: "Vacía tu inventario!"
   usage: "/vi" 
   permission: true
