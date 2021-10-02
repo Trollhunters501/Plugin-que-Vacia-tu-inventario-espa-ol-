@@ -1,0 +1,21 @@
+name: VasiarInventario
+
+main: Creadores\Vasiar\Main
+
+version: 1.0.0
+
+api: 2.0.0, 3.0.0
+
+load: POSTWORLD
+
+author: Creadores
+
+description: Vasia tu inventario!
+
+website: https://github.com/Trollhunters501
+
+commands: 
+ vi:
+  description: "Vasia tu inventario!"
+  usage: "/vi" 
+  permission: true
