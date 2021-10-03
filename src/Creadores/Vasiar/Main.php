@@ -24,7 +24,7 @@ class Main extends PluginBase implements Listener{
             case "vi":
                 $sender->sendMessage("§b[§aCreadores§b]§a Has vaciado tu inventario!");
                 $sender->getPlayer()->getinventory()->clearALL();
-                $sender->getPlayer()->removeALLEfects();
+                $sender->getPlayer()->removeALLEffects();
                 return true;
             default:
                 return false;
