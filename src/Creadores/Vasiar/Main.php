@@ -22,7 +22,7 @@ class Main extends PluginBase implements Listener{
     public function onCommand(CommandSender $sender, Command $command, $label, array $args){
         switch($command->getName()){
             case "ví":
-                $sender->sendMessage("§b[§aCreadores§b]§a Has vasiado tu inventario!");
+                $sender->sendMessage("§b[§aCreadores§b]§a Has vaciado tu inventario!");
                 $sender->getPlayer()->getinventory()->clearALL();
                 $sender->getPlayer()->removeALLEfects();
                 return: true;
