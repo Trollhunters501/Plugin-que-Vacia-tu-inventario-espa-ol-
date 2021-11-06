@@ -21,10 +21,12 @@ class Main extends PluginBase implements Listener{
 
     public function onCommand(CommandSender $sender, Command $command, $label, array $args){
         switch($command->getName()){
-            case "vi":
+            case "vi": 
+                if($sender instanceof Player){
                 $sender->sendMessage("§b[§aCreadores§b]§a Has vaciado tu inventario!");
                 $sender->getPlayer()->getinventory()->clearALL();
-                $sender->getPlayer()->removeALLEffects();
+                $sender->getPlayer()->removeALLEffects(); 
+                }
                 return true;
             default:
                 return false;
